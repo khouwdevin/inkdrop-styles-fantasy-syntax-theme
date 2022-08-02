@@ -7,42 +7,43 @@
   color: #434C5E;
 }
 .editor .CodeMirror-scroll {
-  color: #434C5E;
+  color: #22b4a8;
 }
 .editor .CodeMirror-gutters {
   background-color: #FFFFFF;
 }
 .editor .CodeMirror-linenumber {
-  color: #4C566A;
+  color: #696a6e;
   opacity: 0.6;
 }
 .editor .CodeMirror-selected {
-  background-color: #E5E9F0;
+  background-color: #cacbcd;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #D8DEE9;
+  background-color: #b5b6b6;
 }
 .editor .CodeMirror-cursor {
-  border-left: 1px solid #2E3440;
+  border-left: 1px solid #f0f8ff;
+  background-color: #f0f8ff;
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  background: #4C566A !important;
+  background: #696a6e !important;
   border-bottom: 1px solid #88C0D0 !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
-  color: #4C566A;
+  color: #696a6e;
 }
 .editor .CodeMirror-foldgutter-folded:after {
-  color: #4C566A;
+  color: #696a6e;
 }
 .editor .CodeMirror.over-gutter .CodeMirror-foldgutter-open:after,
 .editor .CodeMirror-activeline .CodeMirror-foldgutter-open:after {
-  color: #4C566A;
+  color: #696a6e;
 }
 .editor .CodeMirror-foldmarker {
-  border-color: #4C566A;
-  background-color: #4C566A;
+  border-color: #696a6e;
+  background-color: #696a6e;
   color: #434C5E;
 }
 .editor .CodeMirror .CodeMirror-linewidget img.inline-widget {
@@ -58,35 +59,46 @@
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
   color: #D08770;
 }
-.editor .CodeMirror .cm-keyword,
-.editor .CodeMirror .cm-formatting-list.cm-variable-2 {
-  color: #5E81AC;
+.editor .CodeMirror .cm-formatting-list.cm-variable-2,
+.editor .CodeMirror .cm-variable-2,
+.editor .CodeMirror .cm-variable-3 {
+  color: #de9e26;
+}
+.editor .CodeMirror .cm-formatting-code-block {
+  color: #b5b6b6;
+}
+.editor .CodeMirror .cm-keyword {
+  color: #c877fa;
 }
 .editor .CodeMirror .cm-url,
 .editor .CodeMirror .cm-string,
 .editor .CodeMirror .cm-string-2,
 .editor .CodeMirror .cm-hr {
-  color: #81A1C1;
+  color: #d63374;
 }
 .editor .CodeMirror .cm-number,
 .editor .CodeMirror .cm-attribute,
 .editor .CodeMirror .cm-plus {
-  color: #5E81AC;
+  color: #c877fa;
 }
-.editor .CodeMirror .cm-def,
+.editor .CodeMirror .cm-def {
+  color: #d2d2d2;
+}
 .editor .CodeMirror .cm-property {
-  color: #D08770;
+  color: #de9e26;
 }
 .editor .CodeMirror .cm-variable {
-  color: #5E81AC;
+  color: #3689e7;
 }
 .editor .CodeMirror .cm-operator,
-.editor .CodeMirror .cm-meta,
 .editor .CodeMirror .cm-bracket {
-  color: #A3BE8C;
+  color: #de9e26;
+}
+.editor .CodeMirror .cm-meta {
+  color: #66dada;
 }
 .editor .CodeMirror .cm-comment {
-  color: #D8DEE9;
+  color: #696a6e;
   font-style: italic;
 }
 .editor .CodeMirror .cm-error,
@@ -94,10 +106,13 @@
   color: #BF616A;
 }
 .editor .CodeMirror .cm-formatting-header {
-  opacity: 0.3;
+  opacity: 1;
+}
+.editor .CodeMirror .cm-formatting-header {
+  color: #696a6e !important;
 }
 .editor .CodeMirror .cm-header {
-  color: #5E81AC;
+  color: #d2d2d2;
 }
 .editor .CodeMirror .cm-link {
   color: #A3BE8C;
@@ -109,14 +124,14 @@
 .editor .CodeMirror .cm-qualifier,
 .editor .CodeMirror .cm-builtin,
 .editor .CodeMirror .cm-tag {
-  color: #88C0D0;
+  color: #d2d2d2;
 }
 .editor .CodeMirror .cm-quote {
-  color: #B48EAD;
+  color: #22b4a8;
   font-style: italic;
 }
 .editor .CodeMirror .cm-whitespace::before {
-  color: #D8DEE9;
+  color: #b5b6b6;
   opacity: 0.4;
 }
 .editor .CodeMirror .cm-formatting-quote,
@@ -132,12 +147,12 @@
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
-  color: #2E3440;
-  opacity: 0.4;
+  color: #22b4a8;
+  opacity: 1;
 }
 .editor .CodeMirror .cm-inline-code {
   background: rgba(0, 0, 0, 0.02);
-  color: #4C566A;
+  color: #696a6e;
 }
 .editor .CodeMirror .gfm-codeblock-bg.CodeMirror-linebackground {
   background: rgba(0, 0, 0, 0.01);

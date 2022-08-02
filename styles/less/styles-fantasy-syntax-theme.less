@@ -9,7 +9,7 @@
   }
   .CodeMirror-scroll {
     // Color of otherwise un-styled text
-    color: @base02;
+    color: @green;
   }
   .CodeMirror-gutters {
     // Gutter to the left
@@ -30,7 +30,8 @@
   }
   .CodeMirror-cursor {
     // The cursor
-    border-left: 1px solid @base00;
+    border-left: 1px solid @aliceblue;
+    background-color: @aliceblue;
   }
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
@@ -79,36 +80,52 @@
       color: @base0C;
     }
 
-    .cm-keyword,
-    .cm-formatting-list.cm-variable-2 {
-      color: @base0A;
+    .cm-formatting-list.cm-variable-2,
+    .cm-variable-2, .cm-variable-3 {
+      color: @gold;
+    } 
+
+    .cm-formatting-code-block {
+      color : @base04;
+    }
+
+    .cm-keyword {
+      color : @pink;
     }
 
     .cm-url,
     .cm-string,
     .cm-string-2,
     .cm-hr {
-      color: @base09;
+      color: @red;
     }
     .cm-number,
     .cm-attribute,
     .cm-plus {
-      color: @base0A;
+      color: @pink;
     }
-    .cm-def,
+
+    .cm-def{
+      color : @white;
+    }
+
     .cm-property {
-      color: @base0C;
+      color: @gold;
     }
     .cm-variable {
-      color: @base0A;
+      color: @lightblue;
     }
     .cm-operator,
-    .cm-meta,
     .cm-bracket {
-      color: @base0E;
+      color: @gold;
     }
+
+    .cm-meta {
+      color : @cyan;
+    }
+
     .cm-comment {
-      color: @base04;
+      color: @base03;
       font-style: italic;
     }
     .cm-error,
@@ -116,10 +133,15 @@
       color: @base0B;
     }
     .cm-formatting-header {
-      opacity: 0.3;
+      opacity: 1;
     }
+
+    .cm-formatting-header {
+      color: @base03 !important;
+    }
+
     .cm-header {
-      color: @base0A;
+      color: @white;
     }
     .cm-link {
       color: @base0E;
@@ -131,10 +153,10 @@
     .cm-qualifier,
     .cm-builtin,
     .cm-tag {
-      color: @base08;
+      color: @white;
     }
     .cm-quote {
-      color: @base0F;
+      color: @green;
       font-style: italic;
     }
     .cm-whitespace::before {
@@ -153,8 +175,8 @@
 
     // carriage return
     .CodeMirror-code > div > pre > span::after, .CodeMirror-line > span::after {
-      color: @base00;
-      opacity: 0.4;
+      color: @green;
+      opacity: 1;
     }
 
     .cm-inline-code {
