@@ -1,1 +1,3 @@
-# Default light syntax theme for Inkdrop Markdown Editor
+# Khouw Devin N Inkdrop Styles Fantasy Syntax Theme
+
+
