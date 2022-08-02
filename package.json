@@ -1,10 +1,14 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "stylized-fantasy-syntax-theme",
   "description": "Inkdrop styles fantasy syntax theme",
   "theme": "syntax",
   "scripts": {
     "build": "lessc styles/less/styles-fantasy-syntax-theme.less ./styles/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/khouwdevin/inkdrop-stylized-fantasy-syntax-theme"
   },
   "styleSheets": [
     "index.css"
