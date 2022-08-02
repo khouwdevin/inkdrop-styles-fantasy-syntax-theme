@@ -1,4 +1,4 @@
-# Khouw Devin N Inkdrop Styles Fantasy Syntax Theme
+# Inkdrop Stylized Fantasy Syntax Theme
 
 
 ### Stylized and Fantasy Kinda Vibes.
