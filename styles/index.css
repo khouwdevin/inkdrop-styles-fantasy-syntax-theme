@@ -85,7 +85,7 @@
   color: #d2d2d2;
 }
 .editor .CodeMirror .cm-property {
-  color: #de9e26;
+  color: #d2d2d2;
 }
 .editor .CodeMirror .cm-variable {
   color: #3689e7;
@@ -115,7 +115,7 @@
   color: #d2d2d2;
 }
 .editor .CodeMirror .cm-link {
-  color: #A3BE8C;
+  color: #d6c332;
   text-underline-position: under;
 }
 .editor .CodeMirror .cm-rangeinfo {
