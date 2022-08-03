@@ -10,7 +10,7 @@
   color: #22b4a8;
 }
 .editor .CodeMirror-gutters {
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 .editor .CodeMirror-linenumber {
   color: #696a6e;
@@ -19,14 +19,14 @@
 .editor .CodeMirror-selected {
   background-color: #194747;
   border-radius: 3px;
-  padding-left: 0.5px;
-  padding-right: 0.5px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
   background-color: #194747;
   border-radius: 3px;
-  padding-left: 0.5px;
-  padding-right: 0.5px;
+  padding-left: 1px;
+  padding-right: 1px;
 }
 .editor .CodeMirror-cursor {
   border-left: 1px solid #f0f8ff;
@@ -180,5 +180,8 @@
 }
 .editor .CodeMirror-activeline-background,
 .editor .CodeMirror-activeline-gutter {
-  background-color: rgba(236, 239, 244, 0.7) !important;
+  background-color: transparent !important;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+  border-color: rgba(85, 84, 84, 0.5);
 }

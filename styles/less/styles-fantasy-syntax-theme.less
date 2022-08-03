@@ -13,7 +13,7 @@
   }
   .CodeMirror-gutters {
     // Gutter to the left
-    background-color: #FFFFFF;
+    background-color: transparent;
   }
   .CodeMirror-linenumber {
     // Line numbers in the gutter
@@ -24,15 +24,15 @@
     // Highlighed text
     background-color: @cyan04;
     border-radius: 3px;
-    padding-left: 0.5px;
-    padding-right: 0.5px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
     background-color: @cyan04;
     border-radius: 3px;
-    padding-left: 0.5px;
-    padding-right: 0.5px;
+    padding-left: 1px;
+    padding-right: 1px;
   }
   .CodeMirror-cursor {
     // The cursor
@@ -212,6 +212,9 @@
 
   /* Active Line Highlight support */
   .CodeMirror-activeline-background, .CodeMirror-activeline-gutter {
-    background-color: fade(@base06, 70%) !important;
+    background-color: transparent !important;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    border-color: @grey05;
   }
 }
