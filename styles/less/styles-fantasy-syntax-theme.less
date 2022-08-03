@@ -22,11 +22,17 @@
   }
   .CodeMirror-selected {
     // Highlighed text
-    background-color: @base05;
+    background-color: @cyan04;
+    border-radius: 3px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
   }
   .CodeMirror-focused .CodeMirror-selected {
     // Highlighed text
-    background-color: @base04;
+    background-color: @cyan04;
+    border-radius: 3px;
+    padding-left: 0.5px;
+    padding-right: 0.5px;
   }
   .CodeMirror-cursor {
     // The cursor
@@ -36,8 +42,8 @@
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
-    background: @base03 !important;
-    border-bottom: 1px solid @base08 !important;
+    border: 1px solid @aliceblue !important;
+    color: inherit !important;
   }
   .CodeMirror-foldgutter-open:after {
     // Those little arrows in the gutter
@@ -65,10 +71,10 @@
   }
   .CodeMirror-searching {
     // Ctrl + F results
-    background-color: @base0D;
+    background-color: @cyan !important;
     // Selected result
     &.searching-current-match {
-      background-color: @base0C;
+      background-color: @cyan !important;
     }
   }
 
@@ -84,6 +90,11 @@
     .cm-variable-2, .cm-variable-3 {
       color: @gold;
     } 
+
+    .cm-overlay, .cm-searching {
+      background-color: @coral;
+      color: @white !important;
+    }
 
     .cm-formatting-code-block {
       color : @base04;
@@ -167,10 +178,13 @@
       opacity: 0.6;
     }
     .cm-strong {
-      color: @base0B;
+      color: @yellow;
     }
     .cm-em {
-      color: @base0C;
+      color: @lightblue;
+    }
+    .cm-strikethrough {
+      color : @pink;
     }
 
     // carriage return

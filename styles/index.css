@@ -17,10 +17,16 @@
   opacity: 0.6;
 }
 .editor .CodeMirror-selected {
-  background-color: #cacbcd;
+  background-color: rgba(102, 218, 218, 0.4);
+  border-radius: 3px;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
 }
 .editor .CodeMirror-focused .CodeMirror-selected {
-  background-color: #b5b6b6;
+  background-color: rgba(102, 218, 218, 0.4);
+  border-radius: 3px;
+  padding-left: 0.5px;
+  padding-right: 0.5px;
 }
 .editor .CodeMirror-cursor {
   border-left: 1px solid #f0f8ff;
@@ -28,8 +34,8 @@
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  background: #696a6e !important;
-  border-bottom: 1px solid #88C0D0 !important;
+  border: 1px solid #f0f8ff !important;
+  color: inherit !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
   color: #696a6e;
@@ -50,10 +56,10 @@
   background: rgba(0, 0, 0, 0.05);
 }
 .editor .CodeMirror-searching {
-  background-color: #EBCB8B;
+  background-color: #66dada !important;
 }
 .editor .CodeMirror-searching.searching-current-match {
-  background-color: #D08770;
+  background-color: #66dada !important;
 }
 .editor .CodeMirror .cm-atom,
 .editor .CodeMirror .cm-formatting-list.cm-variable-3 {
@@ -63,6 +69,11 @@
 .editor .CodeMirror .cm-variable-2,
 .editor .CodeMirror .cm-variable-3 {
   color: #de9e26;
+}
+.editor .CodeMirror .cm-overlay,
+.editor .CodeMirror .cm-searching {
+  background-color: #8b5e16;
+  color: #d2d2d2 !important;
 }
 .editor .CodeMirror .cm-formatting-code-block {
   color: #b5b6b6;
@@ -74,7 +85,7 @@
 .editor .CodeMirror .cm-string,
 .editor .CodeMirror .cm-string-2,
 .editor .CodeMirror .cm-hr {
-  color: #d63374;
+  color: #ec659b;
 }
 .editor .CodeMirror .cm-number,
 .editor .CodeMirror .cm-attribute,
@@ -140,10 +151,13 @@
   opacity: 0.6;
 }
 .editor .CodeMirror .cm-strong {
-  color: #BF616A;
+  color: #d6c332;
 }
 .editor .CodeMirror .cm-em {
-  color: #D08770;
+  color: #3689e7;
+}
+.editor .CodeMirror .cm-strikethrough {
+  color: #c877fa;
 }
 .editor .CodeMirror .CodeMirror-code > div > pre > span::after,
 .editor .CodeMirror .CodeMirror-line > span::after {
