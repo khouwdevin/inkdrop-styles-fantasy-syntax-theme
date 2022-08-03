@@ -34,7 +34,10 @@
 }
 .editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
-  border: 1px solid #f0f8ff !important;
+  outline-style: solid;
+  outline-width: 1px;
+  padding: 1.5px 0 1.5px 0;
+  outline-color: #d2d2d2;
   color: inherit !important;
 }
 .editor .CodeMirror-foldgutter-open:after {
