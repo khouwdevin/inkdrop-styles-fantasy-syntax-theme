@@ -64,14 +64,16 @@
 .editor .CodeMirror-searching.searching-current-match {
   background-color: #66dada !important;
 }
-.editor .CodeMirror .cm-atom,
-.editor .CodeMirror .cm-formatting-list.cm-variable-3 {
+.editor .CodeMirror .cm-atom {
   color: #D08770;
 }
 .editor .CodeMirror .cm-formatting-list.cm-variable-2,
-.editor .CodeMirror .cm-variable-2,
-.editor .CodeMirror .cm-variable-3 {
+.editor .CodeMirror .cm-variable-2 {
   color: #de9e26;
+}
+.editor .CodeMirror .cm-formatting-list.cm-variable-3,
+.editor .CodeMirror .cm-variable-3 {
+  color: #22b4a8;
 }
 .editor .CodeMirror .cm-overlay,
 .editor .CodeMirror .cm-searching {
