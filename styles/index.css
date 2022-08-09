@@ -81,7 +81,7 @@
   color: #d2d2d2 !important;
 }
 .editor .CodeMirror .cm-formatting-code-block {
-  color: #b5b6b6;
+  color: #9b9b9b;
 }
 .editor .CodeMirror .cm-keyword {
   color: #c877fa;
@@ -138,9 +138,11 @@
   color: #D08770;
 }
 .editor .CodeMirror .cm-qualifier,
-.editor .CodeMirror .cm-builtin,
 .editor .CodeMirror .cm-tag {
   color: #d2d2d2;
+}
+.editor .CodeMirror .cm-builtin {
+  color: #cacaca;
 }
 .editor .CodeMirror .cm-quote {
   color: #22b4a8;
