@@ -37,8 +37,8 @@
   .CodeMirror-cursor {
     // The cursor
     border-left: 1px solid @aliceblue;
-    background-color: @aliceblue;
   }
+  .cm-cu
   .CodeMirror-matchingbracket,
   .CodeMirror-matchingtag {
     // When you click a tag/bracket and the matching one is highlighted
@@ -222,4 +222,9 @@
     border-bottom: 1px solid;
     border-color: @grey05;
   }
+}
+
+.cm-fat-cursor .CodeMirror-cursor{
+  border-left: 1px solid @aliceblue !important;
+  background: @aliceblue;
 }
