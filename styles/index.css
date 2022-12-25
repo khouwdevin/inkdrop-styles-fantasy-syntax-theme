@@ -31,7 +31,7 @@
 .editor .CodeMirror-cursor {
   border-left: 1px solid #f0f8ff;
 }
-.editor .cm-cu .CodeMirror-matchingbracket,
+.editor .CodeMirror-matchingbracket,
 .editor .CodeMirror-matchingtag {
   outline-style: solid;
   outline-width: 1px;
