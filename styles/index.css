@@ -188,7 +188,3 @@
   border-bottom: 1px solid;
   border-color: rgba(85, 84, 84, 0.5);
 }
-.cm-fat-cursor .CodeMirror-cursor {
-  border-left: 1px solid #f0f8ff !important;
-  background: #f0f8ff;
-}
