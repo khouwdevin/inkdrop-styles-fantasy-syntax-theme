@@ -18,4 +18,4 @@ ipm install stylized-fantasy-syntax-theme
 
 ![Screenshot on Windows](https://github.com/khouwdevin/inkdrop-stylized-fantasy-syntax-theme/blob/master/pictures/photo2.png?raw=true)
 
-find out these theme on [Sytlized Fantasy...](https://my.inkdrop.app/plugins/stylized-fantasy-syntax-theme)
+find out more for this theme on [Sytlized Fantasy Theme Inkdrop](https://my.inkdrop.app/plugins/stylized-fantasy-syntax-theme)
