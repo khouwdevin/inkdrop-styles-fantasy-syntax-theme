@@ -12,6 +12,6 @@
     "index.css"
   ],
   "engines": {
-    "inkdrop": "^5.x"
+    "inkdrop": "^5.9.0"
   }
 }
