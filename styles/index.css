@@ -43,7 +43,7 @@
   --lightergray: hsl(0, 0%, 70%);
 
   .CodeMirror {
-    background-color: #ffffff;
+    background-color: inherit;
     --fat-cursor-color: #ffffff;
     color: var(--base02);
   }
